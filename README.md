@@ -15,10 +15,10 @@ composer install
 ```
 
 ## Usage
-To use this utlity you need to :
+To use this utility you need to :
 
   1. Get an API key from your Zilore account.
-  2. Create a YAML file that describes your domain and records and place it in the domains folder.
+  2. Create a YAML file that describes your domain and records and place it in the ```domains``` folder.
 
 Then run:
 ```
@@ -28,5 +28,8 @@ Then run:
 Then sit back and watch the terminal. It will tell you what it is doing.
 
 A sample example.com file is already available in the domains folder.
+
+## License
+MIT. See [LICENSE](LICENSE) for more details.
 
 

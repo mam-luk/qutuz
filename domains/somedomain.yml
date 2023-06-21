@@ -3,7 +3,7 @@ domain: somedomain.com
 records:
   - name: somedomain.com
     type: A
-    value: 212.71.236.236 # London
+    value: 112.71.236.236 # London
     ttl: 60
     regions:
       - DEF
@@ -18,14 +18,14 @@ records:
         interval: 60
         path: '/status'
       values:
-        - 172.232.87.166
+        - 172.232.37.166
       notification:
         emails:
-          - support@islamic.network
+          - support@domain.com
         sms: []
   - name: somedomain.com
     type: AAAA
-    value: 2a01:7e00:1::d447:ecec # London
+    value: 2a01:7e00:1::d447:ec3c # London
     ttl: 60
     regions:
       - DEF
@@ -40,14 +40,14 @@ records:
         interval: 60
         path: '/status'
       values:
-        - 2400:8904:1::ace8:57a6
+        - 2400:8904:1::ace6:57a6
       notification:
         emails:
-          - support@islamic.network
+          - support@domain.com
         sms: []
   - name: somedomain.com
     type: A
-    value: 172.232.87.166 # Mumbai
+    value: 172.132.87.466 # Mumbai
     ttl: 60
     regions:
       - DEF
@@ -59,14 +59,14 @@ records:
         interval: 60
         path: '/status'
       values:
-        - 212.71.236.236
+        - 212.71.236.246
       notification:
         emails:
-          - support@islamic.network
+          - support@domain.com
         sms: []
   - name: somedomain.com
     type: AAAA
-    value: 2400:8904:1::ace8:57a6 # Mumbai
+    value: 2400:8904:1::3ce8:57a6 # Mumbai
     ttl: 60
     regions:
       - DEF
@@ -78,8 +78,8 @@ records:
         interval: 60
         path: '/status'
       values:
-        - 2a01:7e00:1::d447:ecec
+        - 2a01:7e00:1::d347:ecec
       notification:
         emails:
-          - support@islamic.network
+          - support@domain.com
         sms: []
