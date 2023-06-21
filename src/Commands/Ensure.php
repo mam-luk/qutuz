@@ -48,16 +48,17 @@ class Ensure extends Command
         $this->setUpZilore();
 
         $output->writeln('Checking if the domain ' . $this->specification['domain'] . ' exists in Zilore...');
-        //Domain::ensure($this->specification, $this->domains, $output);
+        Domain::ensure($this->specification, $this->domains, $output);
         $output->writeln('<comment>Checking if the records in ' . $this->file . ' exist in Zilore...</comment>');
-        //Record::ensure($this->specification, $this->records, $output);
+        Record::ensure($this->specification, $this->records, $output);
         $output->writeln('<comment>Checking if the georecords in ' . $this->file . ' exist in Zilore...</comment>');
-        //GeoRecord::ensure($this->specification, $this->geoRecords, $output);
+        GeoRecord::ensure($this->specification, $this->geoRecords, $output);
         $output->writeln('<comment>Checking if the failover in ' . $this->file . ' exist in Zilore...</comment>');
-        //FailoverRecord::ensure($this->specification, $this->failoverRecords, $output);
+        FailoverRecord::ensure($this->specification, $this->failoverRecords, $output);
         $output->writeln('<info>Checking for any extra DNS records in Zilore that do not exist in your YAML...</info>');
         Record::deleteRecordsNotInYaml($this->specification, $this->records, $output);
-
+        $output->writeln('<info>And that\'s a wrap. Thanks for using the Zilore DNS cli from Mamluk.</info>');
+        
         return 0;
 
     }
