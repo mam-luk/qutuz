@@ -56,7 +56,7 @@ MIT. See [LICENSE](LICENSE) for more details.
 
 ### Credits
 
-* symfone/console
+* symfony/console
 * symfony/yaml
 * This utility has been built for Mamluk (https://mamluk.net), 7x (https://7x.ax) and Islamic Network (https://islamic.network)
 
