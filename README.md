@@ -13,6 +13,10 @@ apply them to your Zilore account.
 It ensures that the state of the domain, records, geodns records and the failover records
 matches what is in the YAML file, and it removes what is not in the YAML file from Zilore.
 
+### A little detour in history - who was Sultan Qutuz?
+
+Sultan Saif al-Din Qutuz (https://en.wikipedia.org/wiki/Qutuz) was the the third Sultan of the Mamluk Sultanate of Cairo. It was during his reign that the historic battle of Ayn Jalut (https://en.wikipedia.org/wiki/Battle_of_Ain_Jalut) took place outside Jerusalem in 1260 which stopped the movement of the Mongols westward. Sultan Qutuz ruled from 1259 to 1260.
+
 ## Installation
 Using this requires php 8.2 (a Docker version is coming soon which will not require PHP).
 
