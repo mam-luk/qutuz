@@ -5,9 +5,13 @@
 
 # Qutuz by Mamluk
 
+### Zilore Sunsetting the DNS Service
+
+_**This utility was originally designed to work with Zilore DNS, who are unsetting their DNS service on July 14, 2024. Whilst there is a plan for us to support other GeoDNS providers with the same declarative YAML, there is currently no due date for this. Please keep tihis in mind when using this utility.**_
+
 ### A Declarative DNS Management Utility for Zilore GeoDNS
 
-This is a command line interface for the <a href="https://zilore.com/?r=455e9e0de5cd86a9c371000077f6bb9f" target="_blank">Zilore DNS</a> service. 
+This is a command line interface for the <a href="https://zilore.com/" target="_blank">Zilore DNS</a> service. 
 It allows you to declaratively define your GeoDNS records in a YAML file and then 
 apply them to your Zilore account.
 It ensures that the state of the domain, records, geodns records and the failover records
