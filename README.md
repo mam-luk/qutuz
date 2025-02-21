@@ -7,7 +7,7 @@
 
 ### Zilore Sunsetting the DNS Service
 
-_**This utility was originally designed to work with Zilore DNS, who are unsetting their DNS service on July 14, 2024. Whilst there is a plan for us to support other GeoDNS providers with the same declarative YAML, there is currently no due date for this. Please keep tihis in mind when using this utility.**_
+_**This utility was originally designed to work with Zilore DNS, who are unsetting their DNS service on July 14, 2024. Whilst there is a plan for us to support other GeoDNS providers with the same declarative YAML, there is currently no due date for this. Please keep this in mind when using this utility.**_
 
 ### A Declarative DNS Management Utility for Zilore GeoDNS
 
